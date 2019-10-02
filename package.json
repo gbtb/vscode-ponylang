@@ -1,0 +1,62 @@
+{
+    "name": "ponylang",
+    "displayName": "Ponylang",
+    "description": "Provides basic support of Ponylang inside vscode",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "pony",
+                "aliases": [
+                    "Pony",
+                    "pony"
+                ],
+                "extensions": [
+                    ".pony"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "problemMatchers": [
+            {
+                "name": "ponyc-matcher",
+                "label": "ponyc cli output problem matcher",
+                "source": "ponyc",
+                "applyTo": "allDocuments",
+                "owner": "pony",
+                "fileLocation": "absolute",
+                "pattern": [
+                    {
+                        "regexp": "^(\\w+).*$",
+                        "severity": 1
+                    },
+                    {
+                        "regexp": "^([^\\s]+?):(\\d+):(\\d+):([\\w\\s]+).*$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "message": 4
+                    }
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pony",
+                "scopeName": "source.pony",
+                "path": "./syntaxes/pony.tmLanguage"
+            }
+        ]
+    },
+    "devDependencies": {
+        "generator-code": "^1.2.7",
+        "vsce": "^1.67.1",
+        "yo": "^3.1.0"
+    }
+}

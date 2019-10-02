@@ -4,7 +4,11 @@
     "description": "Provides basic support of Ponylang inside vscode",
     "version": "0.1.0",
     "engines": {
-        "vscode": "^1.11.0"
+        "vscode": "^1.38.0"
+    },
+    "publisher": "gbtb",
+    "repository": {
+        "url": "https://github.com/gbtb/vscode-ponylang"
     },
     "categories": [
         "Programming Languages"

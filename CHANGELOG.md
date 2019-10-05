@@ -12,3 +12,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added grammar files from sublime plugin https://github.com/ponylang/sublime-pony
 - Added problem matcher for ponyc compiler errors
+
+## [0.1.1]
+- Fixed regexp for problem matcher to include quotes

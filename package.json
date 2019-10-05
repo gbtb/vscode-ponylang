@@ -2,7 +2,7 @@
     "name": "ponylang",
     "displayName": "Ponylang",
     "description": "Provides basic support of Ponylang inside vscode",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -41,7 +41,7 @@
                         "severity": 1
                     },
                     {
-                        "regexp": "^([^\\s]+?):(\\d+):(\\d+):([\\w\\s]+).*$",
+                        "regexp": "^([^\\s]+?):(\\d+):(\\d+):([\\w\\s'\"]+).*$",
                         "file": 1,
                         "line": 2,
                         "column": 3,

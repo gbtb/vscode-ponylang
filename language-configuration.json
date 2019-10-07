@@ -18,7 +18,31 @@
         [
             "(",
             ")"
-        ]
+        ],
+        [
+            "match",
+            "end"
+        ],
+        [
+            "then",
+            "end"
+        ],
+        [
+            "then",
+            "else"
+        ],
+        [
+            "else",
+            "end"
+        ],
+        [
+            "try",
+            "end"
+        ],
+        [
+            "do",
+            "end"
+        ],
     ],
     "autoClosingPairs": [
         [
@@ -40,7 +64,23 @@
         [
             "'",
             "'"
-        ]
+        ],
+        [
+            "match",
+            "end"
+        ],
+        [
+            "then",
+            "end"
+        ],
+        [
+            "try",
+            "end"
+        ],
+        [
+            "do",
+            "end"
+        ],
     ],
     "surroundingPairs": [
         [

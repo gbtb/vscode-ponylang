@@ -15,3 +15,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.1]
 - Fixed regexp for problem matcher to include quotes
+
+## [0.1.2]
+- Fixed regexp for problem matcher - consume anything as a issue description
+
+## [0.1.3]
+- Added some brackets definitions into language-configuration.json in order to get auto-close and auto-indentation

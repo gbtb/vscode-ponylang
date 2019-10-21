@@ -106,7 +106,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(new|be|fun)\s+(iso|trn|ref|val|box|tag)?\b\s*([_a-z][_a-zA-Z0-9]*)</string>
+			<string>\b(new|be|fun)\s+(iso|trn|ref|val|box|tag)?\b\s*([@_a-z][_a-zA-Z0-9]*)</string>
 		</dict>
 		<key>typedeclarations</key>
 		<dict>

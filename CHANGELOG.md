@@ -21,3 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.3]
 - Added some brackets definitions into language-configuration.json in order to get auto-close and auto-indentation
+
+## [0.1.5]
+- Added bare function to tmLanguage method spec
+- Modified problem matcher to catch additional info on compiler errors (without highlighting file paths though :( )

@@ -6,7 +6,7 @@ This extension provides basic support for Pony language in vscode.
 
 * Syntax highlighting (based on grammar definition from https://github.com/ponylang/sublime-pony)
 
-* Problem matcher, which utilizes ponyc output to highlight error in editor
+* Problem matcher, which utilizes ponyc output to highlight errors in editor
 
 ## Example build task
 

@@ -25,3 +25,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.1.5]
 - Added bare function to tmLanguage method spec
 - Modified problem matcher to catch additional info on compiler errors (without highlighting file paths though :( )
+
+## [0.1.6]
+- Fixed additional info regex breaking on some error messages from ponyc

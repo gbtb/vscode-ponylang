@@ -361,7 +361,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>variable.parameter.pony</string>
+					<string>string.quoted.triple.pony</string>
 				</dict>
 				<dict>
 					<key>begin</key>

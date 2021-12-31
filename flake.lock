@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "makeShell": {
+      "locked": {
+        "lastModified": 1634940815,
+        "narHash": "sha256-P69OmveboXzS+es1vQGS4bt+ckwbeIExqxfGLjGuJqA=",
+        "owner": "ursi",
+        "repo": "nix-make-shell",
+        "rev": "8add91681170924e4d0591b22f294aee3f5516f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ursi",
+        "repo": "nix-make-shell",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1633727489,
+        "narHash": "sha256-qUlxgKkoj+rob116nm2IAE+degD17olSKahRmZoI3wE=",
+        "owner": "redvers",
+        "repo": "nixpkgs",
+        "rev": "7df27785bddeb376f9d51c02959c0ea7ea791db1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "redvers",
+        "ref": "ponyc-0.44.0",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "makeShell": "makeShell",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -21,7 +21,7 @@
         [ "try", "else" ],
         [ "do", "end" ],
         [ "for", "end" ],
-        [ "repeat", "end" ]
+        [ "repeat", "end" ],
         [ "while", "end" ]
     ],
     // Symbols that auto-close when typing
@@ -56,7 +56,7 @@
     "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\\"\\,\\.\\<\\>\\/\\?\\s]+)",
     // Indentation rules
     "indentationRules": {
-    }
+    },
     // On Enter rules
     "onEnterRules": [
         // "beforeText": "fun\\s\.*=>\\s*$",

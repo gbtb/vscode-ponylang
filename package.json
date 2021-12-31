@@ -6,6 +6,7 @@
     "engines": {
         "vscode": "^1.38.0"
     },
+    "license": "MIT License",
     "publisher": "gbtb",
     "repository": {
         "url": "https://github.com/gbtb/vscode-ponylang"

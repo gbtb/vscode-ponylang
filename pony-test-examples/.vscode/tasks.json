@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build debug",
+            "group": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "command": "ponyc --debug -o bin",
+            "problemMatcher": "$ponyc-matcher"
+        }
+    ]
+}

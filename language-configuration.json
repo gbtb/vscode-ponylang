@@ -1,107 +1,68 @@
 {
+    // Symbols used as comment
     "comments": {
         "lineComment": "//",
-        "blockComment": [
-            "/*",
-            "*/"
-        ]
+        "blockComment": [ "/*", "*/" ]
     },
+    // Symbols used as brackets: VSCode highlights the bracket with its matching pair
     "brackets": [
-        [
-            "{",
-            "}"
-        ],
-        [
-            "[",
-            "]"
-        ],
-        [
-            "(",
-            ")"
-        ],
-        [
-            "match",
-            "end"
-        ],
-        [
-            "then",
-            "end"
-        ],
-        [
-            "then",
-            "else"
-        ],
-        [
-            "else",
-            "end"
-        ],
-        [
-            "try",
-            "end"
-        ],
-        [
-            "do",
-            "end"
-        ],
+        [ "{", "}" ],
+        [ "[", "]" ],
+        [ "(", ")" ],
+        [ "if", "end" ],
+        [ "match", "end" ],
+        [ "match", "else" ],
+        [ "then", "end" ],
+        [ "then", "else" ],
+        [ "else", "end" ],
+        [ "elseif", "end" ],
+        [ "elseif", "else" ],
+        [ "try", "end" ],
+        [ "try", "else" ],
+        [ "do", "end" ],
+        [ "for", "end" ],
+        [ "repeat", "end" ]
+        [ "while", "end" ]
     ],
+    // Symbols that auto-close when typing
     "autoClosingPairs": [
-        [
-            "{",
-            "}"
-        ],
-        [
-            "[",
-            "]"
-        ],
-        [
-            "(",
-            ")"
-        ],
-        [
-            "\"",
-            "\""
-        ],
-        [
-            "'",
-            "'"
-        ],
-        [
-            "match",
-            "end"
-        ],
-        [
-            "then",
-            "end"
-        ],
-        [
-            "try",
-            "end"
-        ],
-        [
-            "do",
-            "end"
-        ],
+        { "open": "{", "close": "}" },
+        { "open": "[", "close": "]" },
+        { "open": "(", "close": ")" },
+        { "open": "\"", "close": "\"", "notIn": ["comment"] },
+        { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+        { "open": "match", "close": "end", "notIn": ["string", "comment"] },
+        { "open": "then", "close": "end", "notIn": ["string", "comment"] },
+        { "open": "try", "close": "end", "notIn": ["string", "comment"] },
+        { "open": "do", "close": "end", "notIn": ["string", "comment"] }
     ],
+    // Symbols that can be used to surround a selection
     "surroundingPairs": [
-        [
-            "{",
-            "}"
-        ],
-        [
-            "[",
-            "]"
-        ],
-        [
-            "(",
-            ")"
-        ],
-        [
-            "\"",
-            "\""
-        ],
-        [
-            "'",
-            "'"
-        ]
+        [ "{", "}" ],
+        [ "[", "]" ],
+        [ "(", ")" ],
+        [ "\"", "\"" ],
+        [ "'", "'" ]
+    ],
+    // Folding
+    "folding": {
+	// Hide code
+	"markers": {
+	    //"start": "=>\\s*$", // Try to catch function definition
+	    //"end": "^\\s*(actor|class|fun|interface|primitive|trait)\\s*"
+	    }
+    },
+    // What is considered a word in Pony
+    "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\\"\\,\\.\\<\\>\\/\\?\\s]+)",
+    // Indentation rules
+    "indentationRules": {
+    }
+    // On Enter rules
+    "onEnterRules": [
+        // "beforeText": "fun\\s\.*=>\\s*$",
+        // "action": {
+        //    "indent": "indent",
+        //    "appendText": "\"\"\""
+        //}
     ]
 }

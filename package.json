@@ -2,11 +2,12 @@
     "name": "ponylang",
     "displayName": "Ponylang",
     "description": "Provides basic support of Ponylang inside vscode",
-    "version": "0.1.6",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.38.0"
     },
-    "license": "MIT License",
+    "icon": "icon.png",
+    "license": "MIT",
     "publisher": "gbtb",
     "repository": {
         "url": "https://github.com/gbtb/vscode-ponylang"
@@ -66,7 +67,7 @@
     },
     "devDependencies": {
         "generator-code": "^1.2.7",
-        "vsce": "^1.67.1",
+        "vsce": "^2.6.0",
         "yo": "^3.1.0"
     }
 }

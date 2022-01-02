@@ -2,3 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+flake.lock
+flake.nix
+pony-test-examples/
+*.vsix

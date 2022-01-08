@@ -4,6 +4,9 @@ All notable changes to the "ponylang" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.1]
+- Some additional improvements in auto-closing behavior (@pmetras)
+
 ## [0.2.0]
 - Improved auto-closing behavior for various Pony code blocks (@pmetras) https://github.com/gbtb/vscode-ponylang/issues/8
 - Corrections of Pony syntax file (@pmetras)
